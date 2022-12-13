@@ -1,0 +1,91 @@
+Attaching SeuratObject
+Consider to install these (optional) packages to run all possible Giotto commands for spatial analyses:  scran MAST smfishHmrf trendsceek SPARK multinet RTriangle FactoMiner
+ Giotto does not automatically install all these packages as they are not absolutely required and this reduces the number of dependencies
+ no external python path was provided, but a giotto python environment was found and will be used 
+
+ first scale genes and then cells 
+return_plot = TRUE and return_gobject = TRUE 
+
+          plot will not be returned to object, but can still be saved with save_plot = TRUE or manually 
+hvg  was found in the gene metadata information and will be used to select highly variable genes 
+[1] "Network created. Now doing leiden clustering."
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating cluster Ductal
+Calculating cluster Cancer
+Calculating cluster mDCs
+Calculating cluster pDCs
+Calculating cluster Macrophages
+Calculating cluster Mast
+Calculating cluster T
+Calculating cluster Monocytes
+[1] "Length of signature genes = 3105"
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating cluster Cancer
+Calculating cluster Ductal
+Calculating cluster mDCs
+Calculating cluster Macrophages
+Calculating cluster Mast
+Calculating cluster Monocytes
+[1] "Length of signature genes = 2129"
+Time difference of 4.08866 hours
+[1] "Internal reference done."
+Time difference of 1.649822 hours
+[1] "External reference done."
+     user    system   elapsed 
+17758.069  3163.106 20906.144 
+Warning message:
+In createGiottoObject(mixture_expr, spatial_locs = locations) :
+  module: community was not found with python path: /home/alexw/.local/share/r-miniconda/envs/giotto_env/bin/python
+
+Consider to install these (optional) packages to run all possible Giotto commands for spatial analyses:  scran MAST smfishHmrf trendsceek SPARK multinet RTriangle FactoMiner
+ Giotto does not automatically install all these packages as they are not absolutely required and this reduces the number of dependencies
+ no external python path was provided, but a giotto python environment was found and will be used 
+
+ first scale genes and then cells 
+return_plot = TRUE and return_gobject = TRUE 
+
+          plot will not be returned to object, but can still be saved with save_plot = TRUE or manually 
+hvg  was found in the gene metadata information and will be used to select highly variable genes 
+[1] "Network created. Now doing leiden clustering."
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating cluster Ductal
+Calculating cluster Cancer
+Calculating cluster Stroma
+[1] "Length of signature genes = 2398"
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating cluster Cancer
+Calculating cluster Ductal
+Calculating cluster Stroma
+[1] "Length of signature genes = 1752"
+Time difference of 2.270751 hours
+[1] "Internal reference done."
+Time difference of 1.296237 hours
+[1] "External reference done."
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating cluster Cancer
+Calculating cluster Stroma
+Calculating cluster Ductal
+[1] "Length of signature genes = 2993"
+Time difference of 3.455991 hours
+[1] "MIST reference done."
+     user    system   elapsed 
+18899.534  6576.861 25476.105 
+Warning message:
+In createGiottoObject(mixture_expr, spatial_locs = locations) :
+  module: community was not found with python path: /home/alexw/.local/share/r-miniconda/envs/giotto_env/bin/python
+

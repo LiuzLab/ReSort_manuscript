@@ -1,0 +1,3 @@
+[submodule "MBC_EMT/MIST"]
+	path = MBC_EMT/MIST
+	url = https://github.com/linhuawang/MIST

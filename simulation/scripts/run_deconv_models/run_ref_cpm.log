@@ -1,0 +1,155 @@
+Loading required package: nnls
+Loading required package: ggplot2
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Registered S3 method overwritten by 'spatstat.geom':
+  method     from
+  print.boxx cli 
+Attaching SeuratObject
+Loading required package: dplyr
+
+Attaching package: ‘dplyr’
+
+The following object is masked from ‘package:Biobase’:
+
+    combine
+
+The following objects are masked from ‘package:BiocGenerics’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘Giotto’
+
+The following object is masked from ‘package:BiocGenerics’:
+
+    plotPCA
+
+Consider to install these (optional) packages to run all possible Giotto commands for spatial analyses:  MAST smfishHmrf trendsceek SPARK multinet RTriangle FactoMiner
+ Giotto does not automatically install all these packages as they are not absolutely required and this reduces the number of dependencies
+ no external python path was provided, but a giotto python environment was found and will be used 
+
+ first scale genes and then cells 
+return_plot = TRUE and return_gobject = TRUE 
+
+          plot will not be returned to object, but can still be saved with save_plot = TRUE or manually 
+hvg  was found in the gene metadata information and will be used to select highly variable genes 
+[1] "Network created. Now doing leiden clustering."
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating cluster Ductal
+Calculating cluster Cancer
+Calculating cluster mDCs
+Calculating cluster Macrophages
+Calculating cluster Mast
+Calculating cluster Monocytes
+[1] "Length of signature genes = 2766"
+Warning message:
+In createGiottoObject(mixture_expr, spatial_locs = locations) :
+  module: community was not found with python path: /home/alexw/.local/share/r-miniconda/envs/giotto_env/bin/python
+
+Consider to install these (optional) packages to run all possible Giotto commands for spatial analyses:  MAST smfishHmrf trendsceek SPARK multinet RTriangle FactoMiner
+ Giotto does not automatically install all these packages as they are not absolutely required and this reduces the number of dependencies
+ no external python path was provided, but a giotto python environment was found and will be used 
+
+ first scale genes and then cells 
+return_plot = TRUE and return_gobject = TRUE 
+
+          plot will not be returned to object, but can still be saved with save_plot = TRUE or manually 
+hvg  was found in the gene metadata information and will be used to select highly variable genes 
+[1] "Network created. Now doing leiden clustering."
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating cluster Cancer
+Calculating cluster Ductal
+Calculating cluster mDCs
+Calculating cluster Macrophages
+Calculating cluster Mast
+Calculating cluster Monocytes
+[1] "Length of signature genes = 2128"
+Warning message:
+In createGiottoObject(mixture_expr, spatial_locs = locations) :
+  module: community was not found with python path: /home/alexw/.local/share/r-miniconda/envs/giotto_env/bin/python
+
+Consider to install these (optional) packages to run all possible Giotto commands for spatial analyses:  MAST smfishHmrf trendsceek SPARK multinet RTriangle FactoMiner
+ Giotto does not automatically install all these packages as they are not absolutely required and this reduces the number of dependencies
+ no external python path was provided, but a giotto python environment was found and will be used 
+
+ first scale genes and then cells 
+return_plot = TRUE and return_gobject = TRUE 
+
+          plot will not be returned to object, but can still be saved with save_plot = TRUE or manually 
+hvg  was found in the gene metadata information and will be used to select highly variable genes 
+[1] "Network created. Now doing leiden clustering."
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating cluster Cancer
+Calculating cluster Stroma
+Calculating cluster Ductal
+[1] "Length of signature genes = 2993"
+Warning message:
+In createGiottoObject(mixture_expr, spatial_locs = locations) :
+  module: community was not found with python path: /home/alexw/.local/share/r-miniconda/envs/giotto_env/bin/python
+
+Consider to install these (optional) packages to run all possible Giotto commands for spatial analyses:  MAST smfishHmrf trendsceek SPARK multinet RTriangle FactoMiner
+ Giotto does not automatically install all these packages as they are not absolutely required and this reduces the number of dependencies
+ no external python path was provided, but a giotto python environment was found and will be used 
+
+ first scale genes and then cells 
+return_plot = TRUE and return_gobject = TRUE 
+
+          plot will not be returned to object, but can still be saved with save_plot = TRUE or manually 
+hvg  was found in the gene metadata information and will be used to select highly variable genes 
+[1] "Network created. Now doing leiden clustering."
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating cluster mDCs
+Calculating cluster Macrophages
+Calculating cluster Mast
+Calculating cluster Monocytes
+[1] "Length of signature genes = 96"
+Error in quadprog::solve.QP(D/sc, d/sc, A, bzero) : 
+  NA/NaN/Inf in foreign function call (arg 1)
+Calls: run_spatialDWLS ... optimize_solveDampenedWLS -> solve_dampened_WLSj -> <Anonymous>
+In addition: Warning message:
+In createGiottoObject(mixture_expr, spatial_locs = locations) :
+  module: community was not found with python path: /home/alexw/.local/share/r-miniconda/envs/giotto_env/bin/python
+
+Execution halted

@@ -1,0 +1,4 @@
+./source_data/
+./simulated_data/
+./scripts/generate_simulation/cell2loc_inputs_level1
+./scripts/generate_simulation/cell2loc_inputs_level2
